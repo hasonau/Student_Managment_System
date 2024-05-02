@@ -224,13 +224,14 @@ void displayMenu() {
     cout << "2. Remove one Student by Roll No." << endl;
     cout << "3. Update Student Record" << endl;
     cout << "4. Delete All Student Data" << endl;
-    cout << "5. Display All Students" << endl;
+    cout << "5. Display All Studentss" << endl;
     cout << "6. Exit" << endl;
     cout << "Enter your choice:";
 }
 
 int main() {
     StudentManager studentManager;
+    cout<<"Added cout in doing nothing branch."<<endl;
 
     char choice;
     do {
