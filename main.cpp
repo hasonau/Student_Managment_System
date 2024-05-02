@@ -226,7 +226,7 @@ void displayMenu() {
     cout << "4. Delete All Student Data" << endl;
     cout << "5. Display All Students" << endl;
     cout << "6. Exit" << endl;
-    cout << "Enter your choice: ";
+    cout << "Enter your choice:";
 }
 
 int main() {
@@ -268,7 +268,7 @@ int main() {
                 } while (name.empty() || !studentManager.isValidName(name));
 
                 do {
-                    cout << "Enter father's name: ";
+                    cout << "Enter father's name:";
                     getline(cin, fatherName);
                     if (fatherName.empty() || !studentManager.isValidName(fatherName)) {
                         cout << "Invalid input for father's name. Please enter a valid name." << endl;
